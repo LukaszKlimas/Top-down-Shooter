@@ -10,6 +10,8 @@ public class Player : MonoBehaviour
     [SerializeField] private float RotateSpeed=16f;
     private Vector2 mousePosition;
     private Camera mainCamera;
+    [SerializeField] private Bullet _bullet;
+    [SerializeField] private Transform _shootPoints;
     // Start is called before the first frame update
     private void Start()
     {
@@ -19,19 +21,28 @@ public class Player : MonoBehaviour
 
     // Update is called once per frame
     private void Update()
-    {
+    {   //vektor pozycji myszki
         mousePosition=mainCamera.ScreenToWorldPoint(Input.mousePosition);
-
+        //Tworzenie wektora z kilkniętych strzałek
         imputMovment = new Vector2(
             Input.GetAxisRaw("Horizontal"),
             Input.GetAxisRaw("Vertical")
         );
+        // Strzał na lewym klawiszu
+        if(Input.GetMouseButtonDown(0)){
+        Vector2 PlayerToMouse=mousePosition - (Vector2)transform.position;
+        var bullet = Instantiate(_bullet, _shootPoints.position, Quaternion.identity);
+        bullet.Initialize(PlayerToMouse);
+        }
     }
     private void FixedUpdate(){
+        //aktulizacja poruszania się
         rb2D.MovePosition(rb2D.position + imputMovment * Speed*Time.fixedDeltaTime);
         Vector2 PlayerToMouse=mousePosition - (Vector2)transform.position;
+        //płynna rotacja
         Quaternion newRotate =Quaternion.FromToRotation(Vector3.up, PlayerToMouse);
         newRotate=Quaternion.Slerp(transform.rotation,newRotate, RotateSpeed*Time.fixedDeltaTime);
         rb2D.MoveRotation(newRotate);
     }
+   
 }
