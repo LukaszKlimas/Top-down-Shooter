@@ -17,6 +17,8 @@ public class Player : MonoBehaviour
     {
         rb2D = GetComponent<Rigidbody2D>();
         mainCamera=Camera.main;
+        
+
     }
 
     // Update is called once per frame
@@ -36,13 +38,18 @@ public class Player : MonoBehaviour
         }
     }
     private void FixedUpdate(){
-        //aktulizacja poruszania się
+        //aktulizacja poruszania się Move the player rigidbody
         rb2D.MovePosition(rb2D.position + imputMovment * Speed*Time.fixedDeltaTime);
+        // Calculate the vector from the player to the mouse position
         Vector2 PlayerToMouse=mousePosition - (Vector2)transform.position;
-        //płynna rotacja
+        //płynna rotacja Smoothly rotate the player towards the mouse position
         Quaternion newRotate =Quaternion.FromToRotation(Vector3.up, PlayerToMouse);
         newRotate=Quaternion.Slerp(transform.rotation,newRotate, RotateSpeed*Time.fixedDeltaTime);
         rb2D.MoveRotation(newRotate);
+        
+        // Set the camera position to the player position
+        mainCamera.transform.position = transform.position;
+        mainCamera.transform.position = new Vector3(transform.position.x, transform.position.y, -10f);
     }
    
 }
