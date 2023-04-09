@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 354045131368346877}
   - component: {fileID: 5305563100431962072}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tilesheet_complete_466
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: 8279800809535372519}
   - component: {fileID: 8867176565919815771}
   - component: {fileID: 302143095001941704}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ChairBrown
   m_TagString: Untagged
   m_Icon: {fileID: 0}

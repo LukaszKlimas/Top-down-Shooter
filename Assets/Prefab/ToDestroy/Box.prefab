@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 142324203543005476}
   - component: {fileID: -2381158931968071278}
   - component: {fileID: -7040506375279600730}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1572931900260641907}
   - component: {fileID: 317839207613624111}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tilesheet_complete_124
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4153871816562983634}
   - component: {fileID: 220857685642952002}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tilesheet_complete_179
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ GameObject:
   - component: {fileID: -123498290059011283}
   - component: {fileID: -8388957410295009264}
   - component: {fileID: -8919970630716914252}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TreeAutumnBig
   m_TagString: Untagged
   m_Icon: {fileID: 0}

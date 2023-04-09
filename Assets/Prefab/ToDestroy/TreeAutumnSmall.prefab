@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 162121380849433035}
   - component: {fileID: 7805857254111321760}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tilesheet_complete_204
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3575562914746765211}
   - component: {fileID: 6999418620432728310}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tilesheet_complete_177
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -180,7 +180,7 @@ GameObject:
   - component: {fileID: 5647860033116070504}
   - component: {fileID: 2308608504433660791}
   - component: {fileID: -8217026180163662630}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TreeAutumnSmall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -277,7 +277,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8424895889617056714}
   - component: {fileID: 6361477623738953356}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tilesheet_complete_203
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -361,7 +361,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2291757805630620540}
   - component: {fileID: 3551434393812207724}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tilesheet_complete_178
   m_TagString: Untagged
   m_Icon: {fileID: 0}

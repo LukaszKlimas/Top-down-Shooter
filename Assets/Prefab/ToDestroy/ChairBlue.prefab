@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8760199807643346339}
   - component: {fileID: -7681584455143747623}
   - component: {fileID: -8987627272760888087}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ChairBlue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7454239525018339628}
   - component: {fileID: 4898372852558942845}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tilesheet_complete_442
   m_TagString: Untagged
   m_Icon: {fileID: 0}

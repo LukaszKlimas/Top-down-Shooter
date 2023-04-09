@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7310507020957848256}
   - component: {fileID: 1390637512179200870}
   - component: {fileID: 7868566323756978595}
-  - component: {fileID: 8184595702909010793}
+  - component: {fileID: 2256364877383655169}
   m_Layer: 0
   m_Name: Exit
   m_TagString: Exit
@@ -112,7 +112,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8597187, y: 1.5281994}
   m_EdgeRadius: 0
---- !u!50 &8184595702909010793
+--- !u!50 &2256364877383655169
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -120,7 +120,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073328619077215569}
-  m_BodyType: 2
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0

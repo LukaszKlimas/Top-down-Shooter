@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2815269327046419808}
   - component: {fileID: 1586033204671983231}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tilesheet_complete_440
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3183710553082250933}
   - component: {fileID: 3288191423812468782}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tilesheet_complete_439
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2014780195089350257}
   - component: {fileID: 8950152004024579120}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tilesheet_complete_438
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: -4572883650504506041}
   - component: {fileID: 5507207237856462073}
   - component: {fileID: -8681985057187015474}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SofaGreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -52,24 +51,7 @@ public class Player : MonoBehaviour
         mainCamera.transform.position = transform.position;
         mainCamera.transform.position = new Vector3(transform.position.x, transform.position.y, -10f);
     }
-    //kolizje
-    private void OnCollisionEnter2D(Collision2D collision){
-        //kolizja z Exit
-    if (collision.gameObject.CompareTag("Exit"))
-    {
-        int x= SceneManager.GetActiveScene().buildIndex +1;
-         if (SceneManager.GetSceneByBuildIndex(x) != null)
-        {
-            // Scene with build index x exists
-            SceneManager.LoadScene(x);
 
-        }
-        else
-        {
-            // Scene with build index x does not exist
-        }
-        
-    }
-}
+
    
 }

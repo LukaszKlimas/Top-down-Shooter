@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1274168595573693213}
   - component: {fileID: 8241904484008605772}
   - component: {fileID: -6703098756468252801}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: ChairGreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4868583697275853064}
   - component: {fileID: 5888951690750835312}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: tilesheet_complete_441
   m_TagString: Untagged
   m_Icon: {fileID: 0}
