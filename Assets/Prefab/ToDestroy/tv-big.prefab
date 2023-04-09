@@ -189,4 +189,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 4
-  EffectDmg1: {fileID: 0}
+  EffectDmg1: {fileID: 100832713086834092, guid: 04c4e279bc4cbb14d8dd9a36d678e074, type: 3}
