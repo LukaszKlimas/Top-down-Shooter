@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3330973536426647131}
   - component: {fileID: 3330973536426647130}
   - component: {fileID: 3330973536426647133}
+  - component: {fileID: 1360015760984460497}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -141,6 +142,20 @@ MonoBehaviour:
   RotateSpeed: 16
   _bullet: {fileID: -3483463251547363504, guid: 235106f5a50ec7d49ab448cd88835f97, type: 3}
   _shootPoints: {fileID: 8904842673596735637}
+--- !u!114 &1360015760984460497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3330973536426647134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dad082f011a93494282507cebc89f039, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP: 4
+  EffectDmg1: {fileID: 100832713086834092, guid: 04c4e279bc4cbb14d8dd9a36d678e074, type: 3}
 --- !u!1 &7284125217597632117
 GameObject:
   m_ObjectHideFlags: 0

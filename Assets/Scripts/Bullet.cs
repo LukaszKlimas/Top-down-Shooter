@@ -36,7 +36,6 @@ public class Bullet : MonoBehaviour
         {
             obj.TakeDamage(_dmg);
         }
-
         // Destroy the bullet object
         Destroy(gameObject);
     }
