@@ -50,6 +50,7 @@ public class Player : MonoBehaviour
         // Set the camera position to the player position
         mainCamera.transform.position = transform.position;
         mainCamera.transform.position = new Vector3(transform.position.x, transform.position.y, -10f);
+        //Debug.Log(transform.position);
     }
 
 

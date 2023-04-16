@@ -16,8 +16,8 @@ public class Exit : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter2D(Collision2D collision){
-        Debug.Log("czemu");
+    private void OnTriggerEnter2D(Collider2D collision){
+        //Debug.Log("czemu");
         //kolizja Exit z Graczem
     if (collision.gameObject.CompareTag("Player"))
     {
