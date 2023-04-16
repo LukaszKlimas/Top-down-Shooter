@@ -312,7 +312,7 @@ MonoBehaviour:
   x2: 2
   y1: 2
   y2: 2
-  difficulty_1to5: 1
+  difficulty_1to5: 3
   _bullet: {fileID: -3483463251547363504, guid: 235106f5a50ec7d49ab448cd88835f97, type: 3}
   _shootPoints: {fileID: 374693031180741049}
 --- !u!114 &-5027682382037783266
