@@ -38,7 +38,7 @@ public class Bot : MonoBehaviour
 }
 public void Shoot(){
     Vector2 dir =  (Vector2)_shootPoints.TransformPoint(Vector3.zero)-(Vector2)transform.position;
-    Debug.Log((Vector2)_shootPoints.TransformPoint(Vector3.zero)+" "+(Vector2)transform.position +" "+dir);
+    //Debug.Log((Vector2)_shootPoints.TransformPoint(Vector3.zero)+" "+(Vector2)transform.position +" "+dir);
     var bullet = Instantiate(_bullet, _shootPoints.position, Quaternion.identity);
     bullet.Initialize(dir);
 }

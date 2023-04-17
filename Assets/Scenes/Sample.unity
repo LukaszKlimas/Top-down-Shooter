@@ -177,11 +177,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6721680429610535436, guid: 10f382f97cd01df45bee86e55e3f5935, type: 3}
       propertyPath: x1
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6721680429610535436, guid: 10f382f97cd01df45bee86e55e3f5935, type: 3}
       propertyPath: x2
-      value: 10
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6721680429610535436, guid: 10f382f97cd01df45bee86e55e3f5935, type: 3}
       propertyPath: y1
